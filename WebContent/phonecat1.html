@@ -1,0 +1,19 @@
+<div id="src">
+Search: <input type="text" data-ng-model="content">
+<br>
+Select: <select id="sel" data-ng-model="sortby">
+<option value="name">Alphabetical</option>
+<option value="age">Newest</option>
+</select>
+</div>
+
+<div id="sidbar">
+  <ul>
+    <li data-ng-repeat="phone in phones | filter:content | orderBy:sortby" class="thumbnail phone-listing">
+<a href="#/phones/{{phone.id}}"> <img class="img1" data-ng-src="{{phone.imageUrl}}"></a>
+<a href="#/phones/{{phone.id}}">{{phone.name}}</a>      
+
+      <p>{{phone.snippet}}</p>
+    </li>
+  </ul>
+</div>

@@ -1,0 +1,107 @@
+#sidbar {
+    margin-left: 177px;
+    width: 1140px;
+}
+#src {
+    height: 93px;
+    padding: 6px;
+    position: absolute;
+    width: 201px;
+}
+#sel {
+    margin-top: 22px;
+}
+.img1 {
+    float: left;
+    height: 100px;
+    width: 100px;
+}
+.thumbnail {
+    background-color: #fff;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    display: block;
+    height: 126px;
+    list-style-type: none;
+    margin-top: 7px;
+}
+.thumbnail img {
+    margin-left: 14px;
+    margin-top: 18px;
+}
+img.phone {
+    border: 1px solid black;
+    float: left;
+    height: 400px;
+    padding: 2em;
+    width: 400px;
+    cursor:pointer;
+}
+h1 {
+    border-bottom: 1px solid;
+    margin-left: 466px;
+    width: 863px;
+    color:#3333;
+}
+
+
+ul.pthumbs img {
+    border: 1px solid black;
+    height: 100px;
+    margin-left: 7px;
+    padding: 1em;
+    width: 100px;
+    cursor:pointer;
+}
+li {
+    display: inline;
+}
+ul.spec li span {
+    font-size: 1.2em;
+    font-weight: bold;
+    
+}
+ul.spec li dt {
+    font-weight: bold;
+   
+}
+ul.spec li {
+    display: inline-block;
+    vertical-align: top;
+    width: 200px;
+    margin-top: 21px;
+    
+}
+ul.spec {
+    clear: both;
+    padding: 0;
+}
+dd{
+	margin-left:0px; 
+}
+
+.phone-images {
+  background-color: white;
+  width: 450px;
+  height: 450px;
+  overflow: hidden;
+  position: relative;
+  float: left;
+}
+
+
+
+img.phone {
+  float: left;
+  margin-right: 3em;
+  margin-bottom: 2em;
+  background-color: white;
+  padding: 2em;
+  height: 375px;
+  width: 375px;
+  display: none;
+}
+
+img.phone:first-child {
+  display: block;
+  }
